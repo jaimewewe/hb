@@ -1,0 +1,44 @@
+:root {
+  --color-gabe: #917455;
+}
+
+/* FIRMA GABE */
+.wgrsig {
+  border: 1px solid #5a54672e; 
+  width: 350px; 
+  height: 200px;
+  outline: 1px solid var(--color-gabe);
+  outline-offset: 5px;
+  margin: 10px auto;
+  background: url('https://imgur.com/bqnbliC.png') no-repeat;
+}
+
+.wgrsig .sigtxt {
+  margin-top: 70px;
+  margin-left: 212px;
+  width: 118px;
+}
+
+.wgrsig .signm {
+  font-family: 'Staatliches';
+  font-size: 60px;
+  line-height: 100%;
+  color: rgba(000, 000, 000, 0.0);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--color-gabe);
+  letter-spacing: 5px;
+  margin-bottom: -7px;
+}
+
+.wgrsig .sigtxt span {
+  font-size: 7px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #000;
+  line-height: 10px;
+  text-align: justify;
+  text-align-last: center;
+  display: block;
+  text-shadow: 0px 1px rgba(255,255,255,0.2)
+}
