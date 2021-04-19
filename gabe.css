@@ -1,6 +1,8 @@
 :root {
   --color-gabe: #917455;
   --hufflepuff: #C7B662;
+  --borde: #5a54672e;
+  --hufflepuff-chill: #c7b66066;
 }
 
 /* FONT: SAATLICHES */
@@ -265,4 +267,290 @@
   line-height: 100%;
   display: block;
   position: absolute;
+}
+
+/* HOJA DE COMBATE GABE*/
+.wgrfght {
+  width: 850px;
+  min-height: 500px;
+  line-height: 0%;
+}
+
+.wgrfght .fghtit {
+  padding: 25px;
+  height: 62px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--hufflepuff);
+  color: transparent;
+}
+
+.wgrfght .fghtit i {
+  display: block;
+  font-size: 40px;
+  width: 40px;
+  height: 40px;
+  line-height: 50px;
+  text-align: center;
+  position: absolute;
+}
+
+.wgrfght .fghtit span {
+  font-family: 'Staatliches';
+  font-size: 80px;
+  position: absolute;
+  display: block;
+  line-height: 50px;
+  letter-spacing: 5px;
+  margin-left: 60px;
+}
+
+.wgrfght .fghtstats {
+  padding: 20px;
+  text-align: center;
+  height: 80px;
+  margin-bottom: -20px;
+}
+
+.wgrfght .fghtstats div {
+  font-family: 'Staatliches';
+  display: inline-block;
+  width: 94px;
+  margin: 10px;
+  font-size: 70px;
+  color: #131313;
+}
+
+.wgrfght .fghtstats span {
+  font-family: 'Staatliches';
+  display: block;
+  letter-spacing: 5px;
+  margin-left: 5px;
+  font-size: 15px;
+  color: var(--hufflepuff);
+}
+
+.wgrfght .fghtfacts {
+  border: 1px solid var(--borde);
+  width: 180px;
+  padding: 35px;
+  padding-left: 50px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: 'Roboto Condensed';
+  line-height: 16px;
+  letter-spacing: 1.5px;
+  margin: auto;
+  display: block;
+}
+
+.wgrfght .fghtfacts b {
+  color: var(--hufflepuff-chill);
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.wgrfght .fghtfacts i {
+  color: #131313;
+  font-size: 45px;
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  line-height: 100%;
+  padding: 10px;
+  background: rgba(004, 004, 004, 1);
+  margin: -15px -90px;
+}
+
+.wgrfght .fghtsplls {
+  border: 1px solid var(--borde);
+  margin-top: 40px;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.wgrfght .fghtsplls .spllstit {
+  font-family: 'Staatliches';
+  -webkit-text-stroke-color: var(--hufflepuff-chill);
+  -webkit-text-stroke-width: 1px;
+  color: transparent;
+  display: inline-block;
+  position: absolute;
+  font-size: 30px;
+  line-height: 30px;
+  padding: 10px 15px 10px 20px;
+  background: rgba(004, 004, 004, 1);
+  margin-top: -65px;
+  letter-spacing: 5px;
+}
+
+.fghtsplls .splldes {
+  line-height: 13px;
+  padding: 20px;
+  border: 1px solid var(--borde);
+  width: 194px;
+  font-size: 11px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.fghtsplls .splldes span {
+  display: block;
+  font-size: 16px;
+  line-height: 100%;
+  text-transform: uppercase;
+  font-family: 'Staatliches';
+  padding: 5px 10px;
+  position: absolute;
+  background: rgba(04, 04, 04, 1);
+  margin: -32px -10px;
+  color: var(--hufflepuff);
+  letter-spacing: 1.5px;
+}
+
+.fghtsplls .splldes div {
+  height: 100px;
+  overflow-y: auto;
+  padding: 0px 2px;
+}
+
+.fghtsplls .splldes dl.codebox {
+
+}
+
+.fghtsplls .splldes dl.codebox dt, .fghtsplls .splldes span.selectCode {
+  color: var(--hufflepuff);
+}
+
+.fghtsplls .splldes code {
+  font-style: italic;
+  border-color: var(--hufflepuff);
+  height: 50px;
+  display: block;
+  overflow-y: auto;
+}
+
+/* CRONOLOGÍA GABE */
+.wgrchro {
+  width: 850px;
+  min-height: 500px;
+  line-height: 0%;
+}
+
+.wgrchro .chrotit {
+  padding: 25px;
+  height: 62px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--hufflepuff);
+  color: transparent;
+}
+
+.wgrchro .chrotit i {
+  display: block;
+  font-size: 40px;
+  width: 40px;
+  height: 40px;
+  line-height: 50px;
+  text-align: center;
+  position: absolute;
+}
+
+.wgrchro .chrotit span {
+  font-family: 'Staatliches';
+  font-size: 80px;
+  position: absolute;
+  display: block;
+  line-height: 50px;
+  letter-spacing: 5px;
+  margin-left: 60px;
+}
+
+.wgrchro .chromnth {
+  border: 1px solid var(--borde);
+  padding: 40px;
+  line-height: 0px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.wgrchro .chromnth .mnthtit {
+  font-family: 'Staatliches';
+  -webkit-text-stroke-color: var(--hufflepuff-chill);
+  -webkit-text-stroke-width: 1px;
+  color: transparent;
+  display: inline-block;
+  position: absolute;
+  font-size: 30px;
+  line-height: 30px;
+  padding: 10px 15px 10px 20px;
+  background: rgba(004, 004, 004, 1);
+  margin-top: -65px;
+  letter-spacing: 5px;
+}
+
+.wgrchro .chromnth .chrotpic {
+  border: 1px solid var(--borde);
+  width: 322px;
+  padding: 20px;
+  height: 45px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.wgrchro .chromnth .chrotpic div {
+  position: absolute;
+  background: ;
+  width: 50px;
+  margin: -20px;
+  height: 85px;
+  overflow: hidden;
+}
+
+.wgrchro .chromnth .chrotpic.open a {
+  background: var(--hufflepuff-chill);
+}
+
+.wgrchro .chromnth .chrotpic a {
+  text-decoration: none;
+  background: #131313;
+  width: 20px;
+  height: 20px;
+  padding: 20px;
+  text-align: center;
+  line-height: 100%;
+  font-size: 20px;
+  border-radius: 0% 0% 75% 0%;
+  color: #000;
+  position: absolute;
+  margin: -10px;
+}
+
+.wgrchro .chromnth .chrotpic b {
+  position: absolute;
+  display: block;
+  font-family: 'Staatliches';
+  width: 290px;
+  margin-left: 22px;
+  margin-top: 5px;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.wgrchro .chromnth .chrotpic span {
+  display: block;
+  margin-top: 30px;
+  font-size: 10px;
+  line-height: 100%;
+  font-family: 'Roboto Condensed';
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.wgrchro .chromnth .chrotpic .fa-chevron-right {
+  color: var(--hufflepuff-chill);
+  font-size: 7px;
+  vertical-align: 1px;
+  margin: 0px 2px;
 }
