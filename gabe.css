@@ -1,5 +1,6 @@
 :root {
   --color-gabe: #917455;
+  --hufflepuff: #C7B662;
 }
 
 /* FONT: SAATLICHES */
@@ -62,4 +63,206 @@
   text-align-last: center;
   display: block;
   text-shadow: 0px 1px rgba(255,255,255,0.2)
+}
+
+/* PORTADA BAÚL GABE */
+.wgrtrk {
+  width: 850px;
+  height: 402px;
+}
+
+.wgrtrk .trk1 {
+  border: 1px solid #5a54672e;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.wgrtrk .trkband {
+  width: 400px;
+  background: #000;
+  height: 70px;
+  border-top: 50px solid #C7B662;
+  border-bottom: 50px solid #C7B662;
+  transform: rotate(-15deg);
+  position: absolute;
+  margin: 44px -50px;
+}
+
+.wgrtrk .trkimg {
+  width: 122px;
+  height: 122px;
+  border: 10px solid #000;
+  position: absolute;
+  border-radius: 50%;
+  margin: 58px 79px;
+  overflow: hidden;
+}
+
+.wgrtrk .trkimg img {
+  width: 120px;
+  height: 120px;
+  border: 1px solid var(--hufflepuff);
+  border-radius: 50%;
+}
+
+.wgrtrk .trknm {
+  font-family: 'Staatliches';
+  font-size: 100px;
+  line-height: 100%;
+  color: #000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--hufflepuff);
+  position: absolute;
+  width: 285px;
+  text-align: center;
+  margin-top: 190px;
+  letter-spacing: 15px;
+  margin-left: 15px;
+}
+
+.wgrtrk .trk1 .cp {
+  display: block;
+  width: 300px;
+  text-align: center;
+  position: absolute;
+  font-size: 70px;
+  line-height: 100%;
+  color: rgba(19, 19, 19, 0.5);
+  margin-top: 300px;
+}
+
+.wgrtrk .trkbrick {
+  text-transform: uppercase;
+  font-size: 9px;
+  font-family: 'Roboto Condensed';
+  letter-spacing: 10px;
+  text-align: justify;
+  text-align-last: justify;
+  position: absolute;
+  margin: 325px 50px 0px 59px;
+  line-height: 12px;
+}
+
+.wgrtrk .trk1:hover .trkimg {
+  animation: boing 1s 3 ease-out;
+}
+
+@keyframes boing {
+  50% {
+    transform: scale(0.75);
+  }
+}
+
+.wgrtrk .trk2 {
+  border: 1px solid #5a54672e;
+  width: 521px;
+  height: 176px;
+  margin: 0px 327px;
+  overflow: hidden;
+  position: absolute;
+  background-image: url(https://imgur.com/tlx1kNw.png);
+  background-repeat: no-repeat;
+}
+
+.wgrtrk .trk2 i {
+  color: #131313;
+  opacity: 85%;
+  font-size: 300px;
+  line-height: 50%;
+  position: absolute;
+  margin: 105px 0px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+}
+
+.wgrtrk .trk2 div {
+  font-family: 'Roboto Condensed';
+  text-transform: uppercase;
+  font-size: 10px;
+  line-hieght: 100%;
+  letter-spacing: 2px;
+  margin: 100px 50px 0px 75px;
+  font-style: italic;
+  position: absolute;
+}
+
+.wgrtrk .trk2 div:first-letter { margin-left: 25px; }
+
+.wgrtrk .trk3 {
+  border: 1px solid #5a54672e;
+  width: 220px;
+  height: 165px;
+  padding: 15px;
+  margin: 205px 327px;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+}
+
+.wgrtrk .trk3 a {
+  text-decoration: none;
+  font-size: 25px;
+  color: var(--hufflepuff);
+  opacity: 30%;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  padding: 15px;
+  transition: 1.5s ease-out;
+}
+
+.wgrtrk .trk3 a:hover {
+  opacity: 90%;
+  transform: scale(0.8);
+  transition: 0.5s ease-in;
+}
+
+
+.wgrtrk .trk4 {
+  border: 1px solid #5a54672e;
+  width: 244px;
+  height: 195px;
+  margin: 205px 604px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.wgrtrk .trkplst {
+  padding: 23.5px 25px 27px;
+  border-bottom: 1px solid #5a54672e;
+}
+
+.wgrtrk .trkplst a {
+  text-decoration: none;
+  color: var(--hufflepuff);
+  font-size: 15px;
+  line-height: 100%;
+  display: block;
+  margin-top: 4px;
+  height: 15px;
+  width: 15px;
+  position: absolute;
+}
+
+.wgrtrk .trkplst span {
+  font-family: 'Staatliches';
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  line-height: 100%;
+  display: block;
+  poasition: absolute;
+  margin-left: 30px;
+}
+
+.wgrtrk .trkplst i {
+  text-transform: uppercase;
+  font-size: 9px;
+  margin-left: 30px;
+  line-height: 100%;
+  display: block;
+  position: absolute;
 }
