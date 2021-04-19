@@ -415,12 +415,18 @@
   padding: 0px 2px;
 }
 
-.fghtsplls .splldes dl.codebox {
+.fghtsplls .splldes dl.codebox dt {
+  font-size: 0px;
+}
 
+.fghtsplls .splldes span.selectCode {
+  display: inline;
+  margin-top:-2.5px;
+  margin-left: -12px;
 }
 
 .fghtsplls .splldes dl.codebox dt, .fghtsplls .splldes span.selectCode {
-  color: var(--hufflepuff);
+  color: var(--hufflepuff)!important;
 }
 
 .fghtsplls .splldes code {
