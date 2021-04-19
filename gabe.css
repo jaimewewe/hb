@@ -359,7 +359,12 @@
   text-align: center;
   line-height: 100%;
   padding: 10px;
-  background: rgba(004, 004, 004, 1);
+  background: url(https://i.imgur.com/dZV1sRS.jpg);
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-color: #262626;
+  background-size: 100%;
+  background-position: right;
   margin: -15px -90px;
 }
 
@@ -380,7 +385,12 @@
   font-size: 30px;
   line-height: 30px;
   padding: 10px 15px 10px 20px;
-  background: rgba(004, 004, 004, 1);
+  background: url(https://i.imgur.com/dZV1sRS.jpg);
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-color: #262626;
+  background-size: 100%;
+  background-position: right;
   margin-top: -65px;
   letter-spacing: 5px;
 }
@@ -395,7 +405,7 @@
   display: inline-block;
 }
 
-.fghtsplls .splldes span {
+.fghtsplls .splldes b, .fghstsplls .sppldes strong {
   display: block;
   font-size: 16px;
   line-height: 100%;
@@ -403,7 +413,12 @@
   font-family: 'Staatliches';
   padding: 5px 10px;
   position: absolute;
-  background: rgba(04, 04, 04, 1);
+  background: url(https://i.imgur.com/dZV1sRS.jpg);
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-color: #262626;
+  background-size: 100%;
+  background-position: right;
   margin: -32px -10px;
   color: var(--hufflepuff);
   letter-spacing: 1.5px;
@@ -491,7 +506,12 @@
   font-size: 30px;
   line-height: 30px;
   padding: 10px 15px 10px 20px;
-  background: rgba(004, 004, 004, 1);
+  background: url(https://i.imgur.com/dZV1sRS.jpg);
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-color: #262626;
+  background-size: 100%;
+  background-position: right;
   margin-top: -65px;
   letter-spacing: 5px;
 }
