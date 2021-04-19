@@ -435,10 +435,11 @@
 }
 
 .fghtsplls .splldes span.selectCode {
-  display: inline;
-  margin-top:-2.5px;
-  margin-left: -12px;
+  margin-top: -5px;
+  margin-left: -5px;
   font-size: 9px;
+  display: block;
+  text-align: left!important;
 }
 
 .fghtsplls .splldes dl.codebox dt, .fghtsplls .splldes span.selectCode {
