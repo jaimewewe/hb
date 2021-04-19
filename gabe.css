@@ -532,7 +532,7 @@
   margin: -10px;
 }
 
-.wgrchro .chromnth .chrotpic b {
+.wgrchro .chromnth .chrotpic b, .wgrchro .chromnth .chrotpic strong {
   position: absolute;
   display: block;
   font-family: 'Staatliches';
@@ -541,6 +541,7 @@
   margin-top: 5px;
   font-size: 16px;
   line-height: 100%;
+  color: #8c8c8c;
   font-weight: 400;
 }
 
