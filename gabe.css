@@ -495,6 +495,8 @@
   line-height: 0px;
   margin-bottom: 40px;
   margin-top: 10px;
+  column-count: 2;
+  column-gap: 0px;
 }
 
 .wgrchro .chromnth .mnthtit {
