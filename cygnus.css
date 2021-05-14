@@ -1,0 +1,49 @@
+:root {
+  --color-cyg: #7b8d9c;
+}
+
+.cemsig {
+  width: 350px;
+  height: 200px;
+  background: url('https://imgur.com/bRgtZRN.png');
+  margin: 10px auto;
+  outline-offset: 1px;
+  outline: 2px solid var(--color-cyg);
+}
+
+.cemsig .cemtxt {
+  margin-top: 140px;
+  position: absolute;
+  width: 350px;
+}
+
+.cemsig .cemtxt div {
+  font-family: 'Playfair Display';
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 100%;
+  font-weight: 900;
+  color: #455A64;
+  letter-spacing: -5px;
+  margin-left: 3px;
+  text-shadow: 0px 0px 1px rgba(0,0,0,0.4);
+}
+
+.cemsig .cemtxt span {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #000;
+  font-size: 12px;
+  text-align-last: justify;
+  display: block;
+  padding: 5px 40px;
+  line-height: 10px;
+  background-image: url('https://imgur.com/bRgtZRN.png');
+  background-attachment: fixed;
+  background-position: center -135px;
+  margin-top: -35px;
+  text-transform: uppercase;
+  position: absolute;
+  width: 270px;
+  text-align: center;
+}
