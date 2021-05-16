@@ -51,8 +51,8 @@
 
 /* TABLILLA DE ROL */
 .cemtbrl {
-  width: 350px; 
-  padding: 50px; 
+  width: 370px; 
+  padding: 40px; 
   background: #020202; 
   border: 1px solid #5a54672e; 
   margin: auto;
@@ -66,6 +66,7 @@
   text-align: center;
   text-transform: uppercase; 
   line-height: 100%;
+  margin-top: 10px;
 } 
 
 .cemtbrl .tbdt {
@@ -83,10 +84,10 @@
 } 
 
 .cemtbrl .tbrl {
-  padding: 10px; 
+  padding: 20px; 
   font-size: 11px; 
   line-height: 140%;
-  margin-top: 20px; 
+  margin-top: 10px; 
   text-align: justify;
 } 
 
