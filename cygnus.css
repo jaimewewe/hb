@@ -73,7 +73,8 @@
   font-size: 7px;
   text-transform: uppercase; 
   text-align: center; 
-  font-family: 'Roboto Mono'; 
+  font-family: 'Roboto'; 
+  letter-spacing: 1px;
   line-height: 100%; 
   margin-top: 10px;
 } 
