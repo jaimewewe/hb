@@ -2,6 +2,8 @@
   --color-cyg: #7b8d9c;
 }
 
+/* FIRMA */
+
 .cemsig {
   width: 350px;
   height: 200px;
@@ -45,4 +47,61 @@
   width: 270px;
   text-align: center;
   position: absolute;
+}
+
+/* TABLILLA DE ROL */
+.cemtbrl {
+  width: 350px; 
+  padding: 50px; 
+  background: #020202; 
+  border: 1px solid #5a54672e; 
+  margin: auto;
+} 
+
+.cemtbrl .tbtt {
+  font-family: 'Playfair Display'; 
+  font-weight: 900;
+  color: #aaa; 
+  font-size: 23px; 
+  text-align: center;
+  text-transform: uppercase; 
+  line-height: 100%;
+} 
+
+.cemtbrl .tbdt {
+  font-size: 7px;
+  text-transform: uppercase; 
+  text-align: center; 
+  font-family: 'Roboto Mono'; 
+  line-height: 100%; 
+  margin-top: 10px;
+} 
+
+.cemtbrl .tbdt i {
+  color: var(--color-cyg); 
+  font-size: 7px;
+} 
+
+.cemtbrl .tbrl {
+  padding: 10px; 
+  font-size: 11px; 
+  line-height: 140%;
+  margin-top: 20px; 
+  text-align: justify;
+} 
+
+.cemtbrl .tbrl:first-letter {
+  float: left; 
+  font-size: 55px; 
+  font-family: 'Playfair Display'; 
+  line-height: 55px;
+  margin: 0px 10px;
+  font-weight: 700; 
+  font-style: italic;
+} 
+
+.cemtbrl .tbrl u {
+  text-decoration: none; 
+  font-weight: 700; 
+  color: var(--color-cyg);
 }
