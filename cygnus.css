@@ -87,16 +87,16 @@
 .cemtbrl .tbrl {
   padding: 20px; 
   font-size: 11px; 
-  line-height: 140%;
+  line-height: 16px;
   margin-top: 10px; 
   text-align: justify;
 } 
 
 .cemtbrl .tbrl:first-letter {
   float: left; 
-  font-size: 55px; 
+  font-size: 63px; 
   font-family: 'Playfair Display'; 
-  line-height: 55px;
+  line-height: 58px;
   margin: 0px 10px;
   font-weight: 700; 
   font-style: italic;
@@ -107,3 +107,6 @@
   font-weight: 700; 
   color: var(--color-cyg);
 }
+
+/*PORTADA BAÚL*/
+
