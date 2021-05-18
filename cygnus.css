@@ -109,4 +109,145 @@
 }
 
 /*PORTADA BAÚL*/
+.cemtrk {
+  width: 850px;
+  min-height: 500px;
+  line-height: 0%;
+  overflow: hidden;
+}
 
+.cemtrk .trkhead {
+  width: 800px;
+  height: 100px;
+  padding: 25px;
+  background-image: url(https://imgur.com/fX0DMXL.png);
+  background-size: cover;
+  background-color: rgba(000,000,000,0.8);
+  background-blend-mode: multiply;
+  background-position: center;
+  border-bottom: 1px solid var(--texto);
+}
+
+.cemtrk .trkhead .trktit {
+  margin: auto;
+  font-size: 50px;
+  font-family: 'Playfair Display';
+  line-height: 85%;
+  padding: 15px;
+  border: 1px solid var(--texto);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  transform: rotate(-45deg);
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+.cemtrk .trkhead .trktit span {
+  display: block;
+  transform: rotate(45deg);
+  width: 50px;
+  height: 50px;
+}
+.cemtrk .trkhead .trktit i {
+  font-size: 30px;
+  display: block;
+  padding: 10px 0px;
+  line-height: 30px;
+}
+
+.cemtrk .trkbody {
+  width: 750px;
+  padding: 50px;
+  height: 300px;
+  background-image: url(https://i.pinimg.com/originals/7f/43/ea/7f43eae3c4f23efc814c247c6b0bb98b.jpg);
+  background-size: cover;
+  background-color: rgba(000,000,000,0.7);
+  background-blend-mode: multiply;
+  background-position: center;
+}
+
+.cemtrk .trkbody .trkqte {
+  line-height: 18px;
+  font-size: 12px;
+  font-family: 'Playfair Display';
+  width: 300px;
+  font-weight: 400;
+  font-style: italic;
+  position: absolute;
+  margin-top: 30px;
+}
+
+.cemtrk .trkbody .trkqte:first-letter {
+  float: left;
+  font-size: 50px;
+  line-height: 52px;
+  margin-right: 10px;
+  font-weight: 700; 
+  font-style: normal;
+}
+.cemtrk .trkhead .trkindx {
+  column-count: 2;
+  column-gap: 5px;
+  position: absolute;
+  height: 100px;
+  font-size: 9px;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  line-height: 23px;
+  column-width: 100px;
+}
+
+.cemtrk .trkhead .trkindx a {
+  color: var(--texto);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cemtrk .trkhead .trkindx a:hover {
+  color: var(--color-cyg)!important;
+  transition: 0.5s ease-in;
+}
+
+.cemtrk .trkhead .trkindx i {
+  font-size: 15px;
+  margin-right: 5px;
+  font-family: 'Playfair Display';
+  color: var(--color-cyg);
+  font-weight: 700;
+}
+
+.cemtrk .trkbody .trkname {
+  position: absolute;
+  margin: 220px 134px;
+  width: 636px;
+}
+
+.cemtrk .trkbody .trkname div {
+  font-family: 'playfair Display';
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 100px;
+  color: #000;
+  background-image: linear-gradient(#616161, var(--color-cyg));
+  line-height: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cemtrk .trkbody .trkname span {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align-last: justify;
+  padding: 10px 20px;
+  background-image: url(https://i.pinimg.com/originals/7f/43/ea/7f43eae3c4f23efc814c247c6b0bb98b.jpg);
+  background-size: auto 850px;
+  background-color: rgba(000,000,000,0.7);
+  background-blend-mode: multiply;
+  background-position: -184px -545px;
+  background-repeat: no-repeat;
+  height: 10px;
+  line-height: 10px;
+  margin-top: -50px;
+}
