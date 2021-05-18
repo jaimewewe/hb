@@ -1,5 +1,22 @@
 :root {
   --color-cyg: #7b8d9c;
+  --hufflepuff: #C7B662;
+  --borde: #5a54672e;
+  --accent: #5a5467;
+  --texto: #8c8c8c;
+  --hufflepuff-b: #000000;
+  --gryffindor: #923232;
+  --gryffindor-b: #c3aa5b;
+  --ravenclaw: #345e92;
+  --ravenclaw-b: #7b4c1e;
+  --slytherin: #416b50;
+  --slytherin-b: #6c7a86;
+  --hogwarts: #A3B34A;
+  --hogsmeade: #966B41;
+  --ministerio: #636abf;
+  --sanmungo: #53a09c;
+  --otros: #6EADC4;
+  --desempleados: #7d7772;
 }
 
 /* FIRMA */
