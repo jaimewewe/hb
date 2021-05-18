@@ -236,8 +236,8 @@
 
 .cemtrk .trkbody .trkname {
   position: absolute;
-  margin: 220px 134px;
-  width: 636px;
+  margin: 220px 130px;
+  width: 640px;
 }
 
 .cemtrk .trkbody .trkname div {
@@ -262,7 +262,7 @@
   background-size: auto 850px;
   background-color: rgba(000,000,000,0.7);
   background-blend-mode: multiply;
-  background-position: -184px -545px;
+  background-position: -180px -545px;
   background-repeat: no-repeat;
   height: 10px;
   line-height: 10px;
